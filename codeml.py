@@ -119,7 +119,7 @@ def main():
 		X_7feats = pd.concat([df_train, df_Ytrain], axis= 1)
 		Xtest_7feats = pd.concat([df_test, df_Ytest], axis= 1)
 	
-		st.write(all_data)
+		st.write(X_7feats)
 		#st.write("Total number of observations: ", all_data.shape[0], "Selected number of features: ", all_data.shape[1])
 		st.write("Trainig set - # of observations: ", X_7feats.shape[0], "# of features: ", X_7feats.shape[1])
 		st.write("Testing set - # of observations: ", Xtest_7feats.shape[0], "# of features: ", Xtest_7feats.shape[1])
