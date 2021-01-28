@@ -3,18 +3,12 @@ import SessionState
 import time
 
 import pandas as pd
-from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.linear_model import LinearRegression
+
 import seaborn as sns
 import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import StratifiedShuffleSplit
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import mean_squared_error,mean_squared_log_error
+
+#from sklearn.metrics import mean_squared_error,mean_squared_log_error
 from math import sqrt
-from sklearn.linear_model import Ridge, Lasso
-from sklearn.linear_model import ElasticNet
 import matplotlib.pyplot as plt
 
 import streamlit as st
